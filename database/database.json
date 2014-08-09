@@ -3,7 +3,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l3s0\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp30 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l3s0\",\n    \"app\": \"levelApp30\"\n}",
+			"generator": {
+				"id": "xoxo-l3s0",
+				"app": "levelApp30"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l3s0\" ).levelApp30(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l3s0\" ).levelApp30(\"stop\");",
@@ -12,7 +15,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l3s1\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp31 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l3s1\",\n    \"app\": \"levelApp31\"\n}",
+			"generator": {
+				"id": "xoxo-l3s1",
+				"app": "levelApp31"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l3s1\" ).levelApp31(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l3s1\" ).levelApp31(\"stop\");",
@@ -21,7 +27,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l3s2\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp32 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l3s2\",\n    \"app\": \"levelApp32\"\n}",
+			"generator": {
+				"id": "xoxo-l3s2",
+				"app": "levelApp32"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l3s2\" ).levelApp32(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l3s2\" ).levelApp32(\"stop\");",
@@ -32,7 +41,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l4s0\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp40 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l4s0\",\n    \"app\": \"levelApp40\"\n}",
+			"generator": {
+				"id": "xoxo-l4s0",
+				"app": "levelApp40"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l4s0\" ).levelApp40(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l4s0\" ).levelApp40(\"stop\");",
@@ -41,7 +53,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l4s1\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp41 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l4s1\",\n    \"app\": \"levelApp41\"\n}",
+			"generator": {
+				"id": "xoxo-l4s1",
+				"app": "levelApp41"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l4s1\" ).levelApp41(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l4s1\" ).levelApp41(\"stop\");",
@@ -50,7 +65,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l4s2\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp42 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l4s2\",\n    \"app\": \"levelApp42\"\n}",
+			"generator": {
+				"id": "xoxo-l4s2",
+				"app": "levelApp42"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l4s2\" ).levelApp42(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l4s2\" ).levelApp42(\"stop\");",
@@ -61,7 +79,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l6s0\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp60 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l6s0\",\n    \"app\": \"levelApp60\"\n}",
+			"generator": {
+				"id": "xoxo-l6s0",
+				"app": "levelApp60"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l6s0\" ).levelApp60(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l6s0\" ).levelApp60(\"stop\");",
@@ -70,7 +91,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l6s1\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp61 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l6s1\",\n    \"app\": \"levelApp61\"\n}",
+			"generator": {
+				"id": "xoxo-l6s1",
+				"app": "levelApp61"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l6s1\" ).levelApp61(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l6s1\" ).levelApp61(\"stop\");",
@@ -79,7 +103,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l6s2\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp62 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l6s2\",\n    \"app\": \"levelApp62\"\n}",
+			"generator": {
+				"id": "xoxo-l6s2",
+				"app": "levelApp62"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l6s2\" ).levelApp62(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l6s2\" ).levelApp62(\"stop\");",
@@ -88,18 +115,25 @@
 	],
 	"l8": [
 		{
-			"dom": "<div class=\"xoxo xoxo-l8s0\">\n    \n</div>",
+			"dom": "<div class=\"xoxo xoxo-l8s0 container\">\n    <nav class=\"navbar navbar-default\">\n        <div class=\"navbar-header\">\n            <button class=\"navbar-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\".js-navbar-collapse\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"#\">MegaMenu</a>\n        </div>\n\n\n        <div class=\"collapse navbar-collapse js-navbar-collapse\">\n            <ul class=\"nav navbar-nav\">\n                <li class=\"dropdown mega-dropdown\">\n                    <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Collection <span class=\"glyphicon glyphicon-chevron-down pull-right\"></span></a>\n\n                    <ul class=\"dropdown-menu mega-dropdown-menu row\">\n                        <li class=\"col-sm-3\">\n                            <ul>\n                                <li class=\"dropdown-header\">New in Stores</li>                            \n                                <div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\n                                    <div class=\"carousel-inner\">\n                                        <div class=\"item active\">\n                                            <a href=\"#\"><img src=\"http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection\" class=\"img-responsive\" alt=\"product 1\"></a>\n                                            <h4><small>Summer dress floral prints</small></h4>                                        \n                                            <button class=\"btn btn-primary\" type=\"button\">49,99 €</button> <button href=\"#\" class=\"btn btn-default\" type=\"button\"><span class=\"glyphicon glyphicon-heart\"></span> Add to Wishlist</button>       \n                                        </div><!-- End Item -->\n                                        <div class=\"item\">\n                                            <a href=\"#\"><img src=\"http://placehold.it/254x150/ef5e55/f5f5f5/&text=New+Collection\" class=\"img-responsive\" alt=\"product 2\"></a>\n                                            <h4><small>Gold sandals with shiny touch</small></h4>                                        \n                                            <button class=\"btn btn-primary\" type=\"button\">9,99 €</button> <button href=\"#\" class=\"btn btn-default\" type=\"button\"><span class=\"glyphicon glyphicon-heart\"></span> Add to Wishlist</button>        \n                                        </div><!-- End Item -->\n                                        <div class=\"item\">\n                                            <a href=\"#\"><img src=\"http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection\" class=\"img-responsive\" alt=\"product 3\"></a>\n                                            <h4><small>Denin jacket stamped</small></h4>                                        \n                                            <button class=\"btn btn-primary\" type=\"button\">49,99 €</button> <button href=\"#\" class=\"btn btn-default\" type=\"button\"><span class=\"glyphicon glyphicon-heart\"></span> Add to Wishlist</button>      \n                                        </div><!-- End Item -->                                \n                                    </div><!-- End Carousel Inner -->\n                                </div><!-- /.carousel -->\n                                <li class=\"divider\"></li>\n                                <li><a href=\"#\">View all Collection <span class=\"glyphicon glyphicon-chevron-right pull-right\"></span></a></li>\n                            </ul>\n                        </li>\n                        <li class=\"col-sm-3\">\n                            <ul>\n                                <li class=\"dropdown-header\">Dresses</li>\n                                <li><a href=\"#\">Unique Features</a></li>\n                                <li><a href=\"#\">Image Responsive</a></li>\n                                <li><a href=\"#\">Auto Carousel</a></li>\n                                <li><a href=\"#\">Newsletter Form</a></li>\n                                <li><a href=\"#\">Four columns</a></li>\n                                <li class=\"divider\"></li>\n                                <li class=\"dropdown-header\">Tops</li>\n                                <li><a href=\"#\">Good Typography</a></li>\n                            </ul>\n                        </li>\n                        <li class=\"col-sm-3\">\n                            <ul>\n                                <li class=\"dropdown-header\">Jackets</li>\n                                <li><a href=\"#\">Easy to customize</a></li>\n                                <li><a href=\"#\">Glyphicons</a></li>\n                                <li><a href=\"#\">Pull Right Elements</a></li>\n                                <li class=\"divider\"></li>\n                                <li class=\"dropdown-header\">Pants</li>\n                                <li><a href=\"#\">Coloured Headers</a></li>\n                                <li><a href=\"#\">Primary Buttons & Default</a></li>\n                                <li><a href=\"#\">Calls to action</a></li>\n                            </ul>\n                        </li>\n                        <li class=\"col-sm-3\">\n                            <ul>\n                                <li class=\"dropdown-header\">Accessories</li>\n                                <li><a href=\"#\">Default Navbar</a></li>\n                                <li><a href=\"#\">Lovely Fonts</a></li>\n                                <li><a href=\"#\">Responsive Dropdown </a></li>\t\t\t\t\t\t\t\n                                <li class=\"divider\"></li>\n                                <li class=\"dropdown-header\">Newsletter</li>\n                                <form class=\"form\" role=\"form\">\n                                    <div class=\"form-group\">\n                                        <label class=\"sr-only\" for=\"email\">Email address</label>\n                                        <input type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"Enter email\">                                                              \n                                    </div>\n                                    <button type=\"submit\" class=\"btn btn-primary btn-block\">Sign in</button>\n                                </form>                                                       \n                            </ul>\n                        </li>\n                    </ul>\n\n                </li>\n            </ul>\n\n        </div><!-- /.nav-collapse -->\n    </nav>\n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp80 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l8s0\",\n    \"app\": \"levelApp80\"\n}",
+			"generator": {
+				"id": "xoxo-l8s0",
+				"app": "levelApp80",
+				"credit": "http://bootsnipp.com/snippets/featured/mega-menu-with-carousel-for-stores"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l8s0\" ).levelApp80(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l8s0\" ).levelApp80(\"stop\");",
-			"style": "*.xoxo.xoxo-l8s0 {\n    color: inherit;\n}\n"
+			"style": "@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);\n\n*.xoxo.xoxo-l8s0 {\n  font-family: 'Open Sans', 'sans-serif';\n  background:#f0f0f0;\n}\n\n*.xoxo.xoxo-l8s0 .navbar-nav>li>.dropdown-menu {\n    margin-top:20px;\n    border-top-left-radius:4px;\n    border-top-right-radius:4px;\n}\n*.xoxo.xoxo-l8s0 .navbar-default .navbar-nav>li>a {\n    width:200px;\n    font-weight:bold;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown {\n  position: static !important;\n  width:100%;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu {\n    padding: 20px 0px;\n    width: 100%;\n    box-shadow: none;\n    -webkit-box-shadow: none;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu:before {\n    content: \"\";\n    border-bottom: 15px solid #fff;\n    border-right: 17px solid transparent;\n    border-left: 17px solid transparent;\n    position: absolute;\n    top: -15px;\n    left: 285px;\n    z-index: 10;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu:after {\n    content: \"\";\n    border-bottom: 17px solid #ccc;\n    border-right: 19px solid transparent;\n    border-left: 19px solid transparent;\n    position: absolute;\n    top: -17px;\n    left: 283px;\n    z-index: 8;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu > li > ul {\n  padding: 0;\n  margin: 0;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu > li > ul > li {\n  list-style: none;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu > li > ul > li > a {\n  display: block;\n  padding: 3px 20px;\n  clear: both;\n  font-weight: normal;\n  line-height: 1.428571429;\n  color: #999;\n  white-space: normal;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu > li ul > li > a:hover,\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu > li ul > li > a:focus {\n  text-decoration: none;\n  color: #444;\n  background-color: #f5f5f5;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu .dropdown-header {\n  color: #428bca;\n  font-size: 18px;\n  font-weight:bold;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu form {\n    margin:3px 20px;\n}\n*.xoxo.xoxo-l8s0 .mega-dropdown-menu .form-group {\n    margin-bottom: 3px;\n}"
 		},
 		{
 			"dom": "<div class=\"xoxo xoxo-l8s1\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp81 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l8s1\",\n    \"app\": \"levelApp81\"\n}",
+			"generator": {
+				"id": "xoxo-l8s1",
+				"app": "levelApp81"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l8s1\" ).levelApp81(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l8s1\" ).levelApp81(\"stop\");",
@@ -108,7 +142,10 @@
 		{
 			"dom": "<div class=\"xoxo xoxo-l8s2\">\n    \n</div>",
 			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp82 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
-			"generator": "{\n    \"id\": \"xoxo-l8s2\",\n    \"app\": \"levelApp82\"\n}",
+			"generator": {
+				"id": "xoxo-l8s2",
+				"app": "levelApp82"
+			},
 			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
 			"start": "$( \"xoxo xoxo-l8s2\" ).levelApp82(\"start\", <%= settings %>);",
 			"stop": "$( \"xoxo xoxo-l8s2\" ).levelApp82(\"stop\");",
