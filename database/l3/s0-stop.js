@@ -1,0 +1,1 @@
+$( "xoxo xoxo-l3s0" ).levelApp30("stop");

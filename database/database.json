@@ -1,29 +1,154 @@
 {
 	"l3": [
 		{
-			"code": "<div class=\"jumbotron bright-head-idea-one\">\n    <h1><%= text.Company.companyName %></h1>\n    <p class=\"lead\"><%= text.Company.bs %></p>\n    <p class=\"\">a blog by <%= text.Name.findName %></p>\n    <p>\n    <a class=\"btn btn-lg btn-primary\" href=\"http://en.wikipedia.org/wiki/Walt_Whitman\" role=\"button\">more &raquo;</a>\n    <div style=\"width: 100px; height: 100px; background: <%= get('colors.color.list.0') %>;\"></div>\n    </p>\n</div>",
-			"model": "{}",
-			"start": "console.log();",
-			"stop": "console.log();",
-			"style": "@front: #<%= get('color') %>;\n@aux: #<%= get('colors.color.list.0') %>;\n\n.bright-head-idea-one {}\n.bright-head-idea-one.jumbotron {\n    color: @front;   \n    background-image: url('<%= get('pattern') %>');\n    background-repeat: repeat;\n\n}\n.bright-head-idea-one h1 {\n    color: @front;\n}\n.bright-head-idea-one p.lead {\n    color: fadeout( @front, 40% );\n}\n.bright-head-idea-one p {\n    color: fadeout( @front, 70% );\n}"
+			"dom": "<div class=\"xoxo xoxo-l3s0\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp30 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l3s0",
+				"app": "levelApp30"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l3s0\" ).levelApp30(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l3s0\" ).levelApp30(\"stop\");",
+			"style": "*.xoxo.xoxo-l3s0 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l3s1\">\n    \n</div>",
+			"plugin": "// jQueryPlugin Hola!\n(function($) {\n    \n    $.fn.levelApp31 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l3s1",
+				"app": "levelApp31"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l3s1\" ).levelApp31(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l3s1\" ).levelApp31(\"stop\");",
+			"style": "*.xoxo.xoxo-l3s1 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l3s2\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp32 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l3s2",
+				"app": "levelApp32"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l3s2\" ).levelApp32(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l3s2\" ).levelApp32(\"stop\");",
+			"style": "*.xoxo.xoxo-l3s2 {\n    color: inherit;\n}\n"
 		}
 	],
 	"l4": [
 		{
-			"code": "<div class=\"jumbotron bright-head-idea-one\">\n    <h1><%= text.Company.companyName %></h1>\n    <p class=\"lead\"><%= text.Company.bs %></p>\n    <p class=\"\">a blog by <%= text.Name.findName %></p>\n    <p>\n    <a class=\"btn btn-lg btn-primary\" href=\"http://en.wikipedia.org/wiki/Walt_Whitman\" role=\"button\">more &raquo;</a>\n    <div style=\"width: 100px; height: 100px; background: <%= get('colors.color.list.0') %>;\"></div>\n    </p>\n</div>",
-			"model": "{}",
-			"start": "console.log();",
-			"stop": "console.log();",
-			"style": "@front: #<%= get('color') %>;\n@aux: #<%= get('colors.color.list.0') %>;\n\n.bright-head-idea-one {}\n.bright-head-idea-one.jumbotron {\n    color: @front;   \n    background-image: url('<%= get('pattern') %>');\n    background-repeat: repeat;\n\n}\n.bright-head-idea-one h1 {\n    color: @front;\n}\n.bright-head-idea-one p.lead {\n    color: fadeout( @front, 40% );\n}\n.bright-head-idea-one p {\n    color: fadeout( @front, 70% );\n}"
+			"dom": "<div class=\"xoxo xoxo-l4s0\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp40 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l4s0",
+				"app": "levelApp40"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l4s0\" ).levelApp40(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l4s0\" ).levelApp40(\"stop\");",
+			"style": "*.xoxo.xoxo-l4s0 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l4s1\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp41 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l4s1",
+				"app": "levelApp41"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l4s1\" ).levelApp41(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l4s1\" ).levelApp41(\"stop\");",
+			"style": "*.xoxo.xoxo-l4s1 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l4s2\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp42 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l4s2",
+				"app": "levelApp42"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l4s2\" ).levelApp42(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l4s2\" ).levelApp42(\"stop\");",
+			"style": "*.xoxo.xoxo-l4s2 {\n    color: inherit;\n}\n"
 		}
 	],
-	"l7": [
+	"l6": [
 		{
-			"code": "<div class=\"jumbotron bright-head-idea-one\">\n    <h1><%= text.Company.companyName %></h1>\n    <p class=\"lead\"><%= text.Company.bs %></p>\n    <p class=\"\">a blog by <%= text.Name.findName %></p>\n    <p>\n    <a class=\"btn btn-lg btn-primary\" href=\"http://en.wikipedia.org/wiki/Walt_Whitman\" role=\"button\">more &raquo;</a>\n    <div style=\"width: 100px; height: 100px; background: <%= get('colors.color.list.0') %>;\"></div>\n    </p>\n</div>",
-			"model": "{}",
-			"start": "console.log();",
-			"stop": "console.log();",
-			"style": "@front: #<%= get('color') %>;\n@aux: #<%= get('colors.color.list.0') %>;\n\n.bright-head-idea-one {}\n.bright-head-idea-one.jumbotron {\n    color: @front;   \n    background-image: url('<%= get('pattern') %>');\n    background-repeat: repeat;\n\n}\n.bright-head-idea-one h1 {\n    color: @front;\n}\n.bright-head-idea-one p.lead {\n    color: fadeout( @front, 40% );\n}\n.bright-head-idea-one p {\n    color: fadeout( @front, 70% );\n}"
+			"dom": "<div class=\"xoxo xoxo-l6s0\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp60 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l6s0",
+				"app": "levelApp60"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l6s0\" ).levelApp60(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l6s0\" ).levelApp60(\"stop\");",
+			"style": "*.xoxo.xoxo-l6s0 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l6s1\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp61 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l6s1",
+				"app": "levelApp61"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l6s1\" ).levelApp61(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l6s1\" ).levelApp61(\"stop\");",
+			"style": "*.xoxo.xoxo-l6s1 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l6s2\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp62 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l6s2",
+				"app": "levelApp62"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l6s2\" ).levelApp62(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l6s2\" ).levelApp62(\"stop\");",
+			"style": "*.xoxo.xoxo-l6s2 {\n    color: inherit;\n}\n"
+		}
+	],
+	"l8": [
+		{
+			"dom": "<div class=\"xoxo xoxo-l8s0\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp80 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l8s0",
+				"app": "levelApp80"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l8s0\" ).levelApp80(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l8s0\" ).levelApp80(\"stop\");",
+			"style": "*.xoxo.xoxo-l8s0 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l8s1\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp81 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l8s1",
+				"app": "levelApp81"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l8s1\" ).levelApp81(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l8s1\" ).levelApp81(\"stop\");",
+			"style": "*.xoxo.xoxo-l8s1 {\n    color: inherit;\n}\n"
+		},
+		{
+			"dom": "<div class=\"xoxo xoxo-l8s2\">\n    \n</div>",
+			"plugin": "// jQueryPlugin\n(function($) {\n    \n    $.fn.levelApp82 = function(action, options) {\n\n        var settings = $.extend({\n            color: \"inherit\",\n            backgroundColor: \"inherit\"\n        }, options);\n\n\n        if (action === \"start\") {\n\n        }\n        \n        if (action === \"stop\") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));",
+			"generator": {
+				"id": "xoxo-l8s2",
+				"app": "levelApp82"
+			},
+			"settings": "{\n    styles: {\n        main: {\n            border: \"none\"\n        }\n    },\n    onClick: function(e) {\n    \n    }\n}",
+			"start": "$( \"xoxo xoxo-l8s2\" ).levelApp82(\"start\", <%= settings %>);",
+			"stop": "$( \"xoxo xoxo-l8s2\" ).levelApp82(\"stop\");",
+			"style": "*.xoxo.xoxo-l8s2 {\n    color: inherit;\n}\n"
 		}
 	]
 }

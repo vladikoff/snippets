@@ -1,0 +1,10 @@
+{
+    styles: {
+        main: {
+            border: "none"
+        }
+    },
+    onClick: function(e) {
+    
+    }
+}
