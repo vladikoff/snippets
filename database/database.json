@@ -1,0 +1,29 @@
+{
+	"l3": [
+		{
+			"code": "<div class=\"jumbotron bright-head-idea-one\">\n    <h1><%= text.Company.companyName %></h1>\n    <p class=\"lead\"><%= text.Company.bs %></p>\n    <p class=\"\">a blog by <%= text.Name.findName %></p>\n    <p>\n    <a class=\"btn btn-lg btn-primary\" href=\"http://en.wikipedia.org/wiki/Walt_Whitman\" role=\"button\">more &raquo;</a>\n    <div style=\"width: 100px; height: 100px; background: <%= get('colors.color.list.0') %>;\"></div>\n    </p>\n</div>",
+			"model": "{}",
+			"start": "console.log();",
+			"stop": "console.log();",
+			"style": "@front: #<%= get('color') %>;\n@aux: #<%= get('colors.color.list.0') %>;\n\n.bright-head-idea-one {}\n.bright-head-idea-one.jumbotron {\n    color: @front;   \n    background-image: url('<%= get('pattern') %>');\n    background-repeat: repeat;\n\n}\n.bright-head-idea-one h1 {\n    color: @front;\n}\n.bright-head-idea-one p.lead {\n    color: fadeout( @front, 40% );\n}\n.bright-head-idea-one p {\n    color: fadeout( @front, 70% );\n}"
+		}
+	],
+	"l4": [
+		{
+			"code": "<div class=\"jumbotron bright-head-idea-one\">\n    <h1><%= text.Company.companyName %></h1>\n    <p class=\"lead\"><%= text.Company.bs %></p>\n    <p class=\"\">a blog by <%= text.Name.findName %></p>\n    <p>\n    <a class=\"btn btn-lg btn-primary\" href=\"http://en.wikipedia.org/wiki/Walt_Whitman\" role=\"button\">more &raquo;</a>\n    <div style=\"width: 100px; height: 100px; background: <%= get('colors.color.list.0') %>;\"></div>\n    </p>\n</div>",
+			"model": "{}",
+			"start": "console.log();",
+			"stop": "console.log();",
+			"style": "@front: #<%= get('color') %>;\n@aux: #<%= get('colors.color.list.0') %>;\n\n.bright-head-idea-one {}\n.bright-head-idea-one.jumbotron {\n    color: @front;   \n    background-image: url('<%= get('pattern') %>');\n    background-repeat: repeat;\n\n}\n.bright-head-idea-one h1 {\n    color: @front;\n}\n.bright-head-idea-one p.lead {\n    color: fadeout( @front, 40% );\n}\n.bright-head-idea-one p {\n    color: fadeout( @front, 70% );\n}"
+		}
+	],
+	"l7": [
+		{
+			"code": "<div class=\"jumbotron bright-head-idea-one\">\n    <h1><%= text.Company.companyName %></h1>\n    <p class=\"lead\"><%= text.Company.bs %></p>\n    <p class=\"\">a blog by <%= text.Name.findName %></p>\n    <p>\n    <a class=\"btn btn-lg btn-primary\" href=\"http://en.wikipedia.org/wiki/Walt_Whitman\" role=\"button\">more &raquo;</a>\n    <div style=\"width: 100px; height: 100px; background: <%= get('colors.color.list.0') %>;\"></div>\n    </p>\n</div>",
+			"model": "{}",
+			"start": "console.log();",
+			"stop": "console.log();",
+			"style": "@front: #<%= get('color') %>;\n@aux: #<%= get('colors.color.list.0') %>;\n\n.bright-head-idea-one {}\n.bright-head-idea-one.jumbotron {\n    color: @front;   \n    background-image: url('<%= get('pattern') %>');\n    background-repeat: repeat;\n\n}\n.bright-head-idea-one h1 {\n    color: @front;\n}\n.bright-head-idea-one p.lead {\n    color: fadeout( @front, 40% );\n}\n.bright-head-idea-one p {\n    color: fadeout( @front, 70% );\n}"
+		}
+	]
+}
