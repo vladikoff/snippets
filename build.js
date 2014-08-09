@@ -3,6 +3,9 @@ require('shelljs/global');
 var particleDatabase = {};
 // For each folder
 var designComponents = [];
+
+cd('database');
+
 ls('l*').forEach(function(designComponent) {
     if (test('-d', designComponent) ){
 
@@ -115,4 +118,7 @@ designComponents.forEach(function(designComponent, designComponentIndex) {
 });
 
 var objs = JSON.stringify(particleDatabase, null, '\t');
+
+cd('..');
+
 objs.to('database.json');
