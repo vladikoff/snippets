@@ -1,7 +1,7 @@
 // jQueryPlugin
 (function($) {
     
-    $.fn.levelApp82 = function(action, options) {
+    $.fn.levelApp42 = function(action, options) {
 
         var settings = $.extend({
             color: "inherit",

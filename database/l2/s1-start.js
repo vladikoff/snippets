@@ -1,0 +1,1 @@
+$( "xoxo xoxo-l8s1" ).levelApp81("start", <%= settings %>);

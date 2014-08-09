@@ -1,1 +1,1 @@
-$( "xoxo xoxo-l4s2" ).levelApp42("stop");
+$( "xoxo xoxo-l3s2" ).levelApp32("stop");
