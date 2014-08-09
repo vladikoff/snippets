@@ -1,4 +1,4 @@
-// jQueryPlugin Hola!
+// jQueryPlugin
 (function($) {
     
     $.fn.levelApp31 = function(action, options) {
