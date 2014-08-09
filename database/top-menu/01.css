@@ -1,0 +1,18 @@
+    @front: #<%= get('color') %>;
+    @aux: #<%= get('colors.color.list.0') %>;
+    .bright-head-idea-one {}
+    .bright-head-idea-one.jumbotron {
+        color: @front;   
+        background-image: url('<%= get('pattern') %>');
+        background-repeat: repeat;
+    
+    }
+    .bright-head-idea-one h1 {
+        color: @front;
+    }
+    .bright-head-idea-one p.lead {
+        color: fadeout( @front, 40% );
+    }
+    .bright-head-idea-one p {
+        color: fadeout( @front, 70% );
+    }

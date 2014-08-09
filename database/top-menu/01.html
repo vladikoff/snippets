@@ -1,0 +1,30 @@
+<style>
+    @front: #<%= get('color') %>;
+    @aux: #<%= get('colors.color.list.0') %>;
+    .bright-head-idea-one {}
+    .bright-head-idea-one.jumbotron {
+        color: @front;   
+        background-image: url('<%= get('pattern') %>');
+        background-repeat: repeat;
+    
+    }
+    .bright-head-idea-one h1 {
+        color: @front;
+    }
+    .bright-head-idea-one p.lead {
+        color: fadeout( @front, 40% );
+    }
+    .bright-head-idea-one p {
+        color: fadeout( @front, 70% );
+    }
+</style>
+
+<div class="jumbotron bright-head-idea-one">
+    <h1><%= text.Company.companyName %></h1>
+    <p class="lead"><%= text.Company.bs %></p>
+    <p class="">a blog by <%= text.Name.findName %></p>
+    <p>
+    <a class="btn btn-lg btn-primary" href="http://en.wikipedia.org/wiki/Walt_Whitman" role="button">more &raquo;</a>
+    <div style="width: 100px; height: 100px; background: <%= get('colors.color.list.0') %>;"></div>
+    </p>
+</div>
