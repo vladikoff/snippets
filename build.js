@@ -1,5 +1,7 @@
 require('shelljs/global');
 
+var mode = 'NOMINAL';
+
 var particleDatabase = {};
 // For each folder
 var designComponents = [];
@@ -34,7 +36,7 @@ designComponents.forEach(function(designComponent, designComponentIndex) {
 
         var snippet = {};
 
-        if(0){
+        if(mode == 'UPDATE'){
 
             // snippet.dom  = '<div class="xoxo '+strId+'">\n    \n</div>';
             // var domFilePath =  designComponent + '/' + 's'+snippetNumber+'-dom.html';
@@ -44,10 +46,29 @@ designComponents.forEach(function(designComponent, designComponentIndex) {
             // var styleFilePath =  designComponent + '/' + 's'+snippetNumber+'-style.css';
             // snippet.style.to(styleFilePath);
 
-            // snippet.generator = '{\n    "id": "'+strId+'",\n    "app": "'+appId+'"\n}';
-            // var generatorFilePath =  designComponent + '/' + 's'+snippetNumber+'-generator.json';
-            // snippet.generator.to(generatorFilePath);
+            var generatorFilePath =  designComponent + '/' + 's'+snippetNumber+'-generator.json';
+            if(test('-f', generatorFilePath)){
+                snippet.generator = JSON.parse( cat(generatorFilePath) );
+                
+                //Update
+                if( snippet.generator.id != strId ){
+                    console.log( 'update [%s] to [%s]', snippet.generator.id, strId);
+                    snippet.generator.id = strId;
+                }
+                
+                if( snippet.generator.app != appId ){
+                    console.log( 'update [%s] to [%s]', snippet.generator.app, appId)
+                    snippet.generator.app = appId;
+                }
+                
+                //JSON.stringify(snippet.generator, null, '    ').to(generatorFilePath);
+                 
+            }else{
+                snippet.generator = '{\n    "id": "'+strId+'",\n    "app": "'+appId+'"\n}';
+                //snippet.generator.to(generatorFilePath);
+            }
             
+            /*
             snippet.plugin  = '// jQueryPlugin\n(function($) {\n    \n    $.fn.'+appId+' = function(action, options) {\n\n        var settings = $.extend({\n            color: "inherit",\n            backgroundColor: "inherit"\n        }, options);\n\n\n        if (action === "start") {\n\n        }\n        \n        if (action === "stop") {\n            \n        }\n\n        return this;\n    };\n    \n}(jQuery));';
             var pluginFilePath =  designComponent + '/' + 's'+snippetNumber+'-plugin.js';
             snippet.plugin.to(pluginFilePath);
@@ -63,7 +84,8 @@ designComponents.forEach(function(designComponent, designComponentIndex) {
             snippet.stop  = '$( "xoxo '+strId+'" ).'+appId+'("stop");';
             var stopFilePath =  designComponent + '/' + 's'+snippetNumber+'-stop.js';
             snippet.stop.to(stopFilePath);
-
+            */
+            
         }else{
 
             snippet.dom  = '';
@@ -117,8 +139,10 @@ designComponents.forEach(function(designComponent, designComponentIndex) {
     var particleObject = {};   
 });
 
-var objs = JSON.stringify(particleDatabase, null, '\t');
-
-cd('..');
-
-objs.to('database.json');
+if(mode != 'UPDATE'){
+    
+     var objs = JSON.stringify( particleDatabase, null, '\t');
+     cd('..');
+     objs.to('database.json');
+    
+}
