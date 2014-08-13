@@ -1,8 +1,19 @@
-snippets
+Snippets
 ========
 HTML snippet library for generative applications.
 
-## WTF
+## Opening Ceremony
+
+* The repository opens with 53 snippets from bootsnipp and snipplicious.
+* A lot of those files (source) are dated and require validation and repair. That is the first step.
+* Consider this Library to contain MIT licensed Web-Design Patterns.
+
+## Mission
+
+* To store a Library of easy to edit snippets.
+* Let them Evolve, let them Grow, let them seed many a project.
+
+## Definition
 
 * A snippet is the last component of a framework.
 * It is the snippet and not component that makes the page.
