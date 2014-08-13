@@ -1,7 +1,7 @@
 // jQueryPlugin
 (function($) {
     
-    $.fn.levelApp30 = function(action, options) {
+    $.fn.levelApp40 = function(action, options) {
 
         var settings = $.extend({
             color: "inherit",
@@ -10,7 +10,7 @@
 
 
         if (action === "start") {
-
+            $('.carousel').carousel();
         }
         
         if (action === "stop") {

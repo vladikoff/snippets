@@ -1,0 +1,7 @@
+{
+    "name": "Newsletter Subscribe",
+    "author": "http://bootsnipp.com/msurguy",
+    "html": "<div class=\"container\">\n\t<div class=\"row\">\n        <div class=\"span12\">\n    \t\t<div class=\"thumbnail center well well-small text-center\">\n                <h2>Newsletter</h2>\n                \n                <p>Subscribe to our weekly Newsletter and stay tuned.</p>\n                \n                <form action=\"\" method=\"post\">\n                    <div class=\"input-prepend\"><span class=\"add-on\"><i class=\"icon-envelope\"></i></span>\n                        <input type=\"text\" id=\"\" name=\"\" placeholder=\"your@email.com\">\n                    </div>\n                    <br />\n                    <input type=\"submit\" value=\"Subscribe Now!\" class=\"btn btn-large\" />\n              </form>\n            </div>    \n        </div>\n\t</div>\n</div>",
+    "css": "",
+    "js": ""
+}

@@ -1,3 +1,19 @@
 *.xoxo.xoxo-l8s2 {
     color: inherit;
 }
+
+.thumb-dropdown .dropdown-menu > li {
+    position: relative;
+}
+.thumb-dropdown .dropdown-menu > li > a .thumbnail {
+    position: absolute; 
+    left: 100%;
+    top: -10px;
+    display: none;    
+    width: 350px;
+    height: auto;
+    margin-left: 5px;
+}
+.thumb-dropdown .dropdown-menu > li > a:hover .thumbnail  {
+    display: block;    
+}
