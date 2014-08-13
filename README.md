@@ -38,6 +38,9 @@ and use either ```bower_components/snippets/database.json``` or ```bower_compone
 ## Compilation Steps
 * Run build in the main directory, it will clobber the ./database.json
 
+## File System Structure
+* tbc
+
 ## Legal
 * Build system is under Apache License Version 2.0, January 2004, see LICENSE
 * See LICENSES for library code.
