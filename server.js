@@ -22,15 +22,25 @@ http.createServer(function (req, res) {
          var str = JSON.stringify(o, null, '    ');
          str.to(filename)
          console.info('saved to [%s]',filename);
+        res.writeHead(200, {'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json'});
+        res.end('{"status":"success", "message":"Saved to '+filename+'"}\n');
     }
     
    // jsonBody(req, res, send)
-    anyBody(req, res, {}, send)
-    console.log(req.url);
     
-  res.writeHead(200, {'Access-Control-Allow-Origin': '*', 'Content-Type': 'text/plain'});
     
-  res.end('Hello World\n');
+    if(req.url == '/save/file'){
+        
+        anyBody(req, res, {}, send);
+
+    }else{
+        res.writeHead(200, {'Access-Control-Allow-Origin': '*', 'Content-Type': 'text/plain'});
+        var msg=[
+            '// You want to do this:',
+            
+        ];
+        res.end(msg.join('\n') + '\n');
+    }
     
 }).listen(1337, 'cdn.localhost');
 
