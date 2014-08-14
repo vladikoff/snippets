@@ -40,6 +40,9 @@ and use either ```bower_components/snippets/database.json``` or ```bower_compone
 
 ## File System Structure
 * Start/Stop are considered part of the spec. Unspecifed, plugin will default to start/restart. There used to be separate .js files for init but that was a silly idea. From bootstrap carousel to caloan's async just use js, use js. Use es6 for that matter multiline strings go a long way in themplate worlds. AWESOME! :)
+* Comnfiguration should store enough to seed all generator needs.
+* .html - Format all HTML files, pls.
+* Use minimal HTML. Use HTML for fallback rather than base. Don't beat the poor dead horse. Consider HTML to be a an xml node with useful attrributes. FOcus on plugin development and a NOSCRIPT fallback.
 
 ## Legal
 * Build system is under Apache License Version 2.0, January 2004, see LICENSE
