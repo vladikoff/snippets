@@ -1,4 +1,6 @@
 require('shelljs/global');
+var traceur = require('traceur');
+
 
 var mode = 'NOMINAL';
 

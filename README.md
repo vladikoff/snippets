@@ -39,7 +39,7 @@ and use either ```bower_components/snippets/database.json``` or ```bower_compone
 * Run build in the main directory, it will clobber the ./database.json
 
 ## File System Structure
-* tbc
+* Start/Stop are considered part of the spec. Unspecifed, plugin will default to start/restart. There used to be separate .js files for init but that was a silly idea. From bootstrap carousel to caloan's async just use js, use js. Use es6 for that matter multiline strings go a long way in themplate worlds. AWESOME! :)
 
 ## Legal
 * Build system is under Apache License Version 2.0, January 2004, see LICENSE
