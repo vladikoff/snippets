@@ -1,0 +1,31 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "Collection of Design Components",
+  "main": "snippets.js",
+  "dependencies": {
+    "body": "^4.5.0",
+    "shelljs": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regenerate/snippets.git"
+  },
+  "keywords": [
+    "snippets",
+    "jQuery",
+    "generator",
+    "traceur",
+    "es6"
+  ],
+  "author": "Heart-os",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/regenerate/snippets/issues"
+  },
+  "homepage": "https://github.com/regenerate/snippets"
+}
