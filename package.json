@@ -5,7 +5,8 @@
   "main": "snippets.js",
   "dependencies": {
     "body": "^4.5.0",
-    "shelljs": "^0.3.0"
+    "shelljs": "^0.3.0",
+    "traceur": "0.0.58"
   },
   "devDependencies": {},
   "scripts": {
