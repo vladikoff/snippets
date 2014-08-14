@@ -50,7 +50,6 @@ and use either ```bower_components/snippets/database.json``` or ```bower_compone
 * Here is what is on their mind when they begin.
 ![example](documentation/assets/joomla_positions.png "Something like this")
 
-
 ```
 title
 toolbar
@@ -71,6 +70,8 @@ four
 
 debug
 ```
+
+*** note it is from these positions that one or more random selections are made ***
 
 ## File System Structure
 * Start/Stop are considered part of the spec. Unspecifed, plugin will default to start/restart. There used to be separate .js files for init but that was a silly idea. From bootstrap carousel to caloan's async just use js, use js. Use es6 for that matter multiline strings go a long way in themplate worlds. AWESOME! :)
