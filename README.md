@@ -41,11 +41,15 @@ and use either ```bower_components/snippets/database.json``` or ```bower_compone
 ## PAGE CATEGORIES
 * Think of Page Categories as a folder in a Start From Template Page.
 
-
 ![example](documentation/assets/start-from-tempate.gif "Something like this")
 
 
 ## MODULE POSITIONS
+* There are but a few layouts, relativley speaking.
+* There is no specific layout rule, it is up to the artist.
+* Here is what is on their mind when they begin.
+![example](documentation/assets/joomla_positions.png "Something like this")
+
 
 ```
 title
