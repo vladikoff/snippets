@@ -38,7 +38,14 @@ and use either ```bower_components/snippets/database.json``` or ```bower_compone
 ## Compilation Steps
 * Run build in the main directory, it will clobber the ./database.json
 
-## 
+## PAGE CATEGORIES
+* Think of Page Categories as a folder in a Start From Template Page.
+
+
+![example](documentation/assets/start-from-tempate.gif "Something like this")
+
+
+## MODULE POSITIONS
 
 ```
 title
