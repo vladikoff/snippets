@@ -42,7 +42,18 @@ designComponents.forEach(function(designComponent, designComponentIndex) {
 
         }else{
 
-            // THIS IS A LIVE OBJECT
+            // THIS IS A LIVE OBJECT.
+            /*
+                It would be best to consider it as a kind of win32 registry
+                Over at HTML world, some of the stuff from here will be interpolated in.
+                Note that HTML version CAN'T use JavaScript, as it maybe turned off.
+                Hybrid/polyfilled solutions will be available,
+                but those are on case-by-case and nice to have.
+
+                DO TWO THINGS, and do each well.
+                HTML and JS.
+                Later a polyfilled JS program with IE6-ish support can give the HTML a boost.
+            */
             snippet.configuration = '';
             var configurationFilePath =  designComponent + '/' + 's'+snippetNumber+'-configuration.json';
             if(test("-f", configurationFilePath)) {
