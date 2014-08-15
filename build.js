@@ -72,6 +72,17 @@ designComponents.forEach(function(designComponent, designComponentIndex) {
             }
 
 
+            /*
+                This is the fallback strategy, IE6 and other "marvels".
+                JavaScript alone will go a long way back, but not all the way back.
+                IT IS ALSO CRITICAL to understand that <NOSCRIPT/> is VERY IMPORTANT,
+                more important than it has been in the past. NOSCRIPT means more batteries,
+                coller CPU and great experience on cheap phones.
+                
+                This is the BIG BONUS that MODEL based setup beings us.
+                HTML/NOSCRIPT can cacpture the essence, JS/jQ the rest.
+            
+            */
             snippet.html  = '';
             var htmlFilePath =  designComponent + '/' + 's'+snippetNumber+'-html.html';
             if(test("-f", htmlFilePath)) {
