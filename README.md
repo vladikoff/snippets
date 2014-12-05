@@ -1,4 +1,4 @@
-Snippets
+Snippets [ARCHIVED]
 ========
 HTML snippet library for generative applications.
 
